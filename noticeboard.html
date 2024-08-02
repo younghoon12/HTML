@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NoticeBoard</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #NoticeBoard {
+            width: 100%;
+            height: auto;
+            border: 1px solid red;
+            box-sizing: border-box;
+        }
+
+        header {
+            width: 800px;
+            height: 35px;
+            margin-left: 570px;
+            border: 1px solid pink;
+            box-sizing: border-box;
+        }
+
+        main {
+            width: 100%;
+            height: auto;
+            border: 1px solid green;
+            box-sizing: border-box;
+
+        }
+
+        main > section {
+            width: 800px;
+            height: 500px;
+            border: 1px solid blue;
+            box-sizing: border-box;
+            margin-top: 100px;
+            margin-bottom: 100px;
+            margin-left: 570px;
+        }
+
+        footer {
+            width: 800px;
+            height: 20px;
+            border: 1px solid yellow;
+            box-sizing: border-box;
+            margin-left: 570px;
+
+        }
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div id="NoticeBoard">
+        <header></header>
+        <main>
+            <section>
+                <table>
+                    <row>
+                        <cell id="title"></cell>
+                        <data id="titleins"></data>
+                    </row>
+                    <row>
+                        <cell id="content"></cell>
+                        <data id="contentbox"></data>                        
+                    </row>
+                    <row>
+                        <cell id="file"></cell>
+                        <data id="data"></data>
+                    </row>
+                </table>
+
+            </section>
+        </main>
+        <footer>푸터</footer>
+    </div>
+    
+</body>
+</html>
